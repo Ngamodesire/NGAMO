@@ -1,5 +1,6 @@
 
-echo BIENVENUE NOUVEAU UTILISATEUR
+echo BIENVENUE MONSIEUR
+echo SUR NOTRE PROJET
 echo "donner lemplacement ou vous voulez deployer le projet"
 read chemin
 cd  $chemin
@@ -15,8 +16,8 @@ pwd
  git  clone https://github.com/Ngamodesire/NGAMO.git
 ls -l
 cd test 	
-gcc -Wall ETD.c -o ETD -lm
-chmod +x ETD.c
+gcc -Wall projetproduit.c -o projetproduit -lm
+chmod +x projetproduit.c
 
-./ETD
+./projetproduit
 
